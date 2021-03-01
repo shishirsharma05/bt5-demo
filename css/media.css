@@ -1,0 +1,89 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   h1{
+   	background-color: #ccffff;
+   	color: red;
+   	font-size: 20px;
+   	text-align:center;
+   } 
+   p{
+   	background-color: #47d1d1;
+   	color: red;
+   	font-size: 15px;
+   }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+    background-color: #00e6e6;
+   	color: green;
+   	font-size: 30px;
+   	text-align:center;
+   }
+   p{
+   	background-color: #ffb3b3;
+   	color: blue;
+   	font-size: 15px;
+   } 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+    background-color: #00cccc;
+   	color: blue;
+   	font-size: 40px;
+   	text-align:center;
+   } 
+   p{
+   	background-color: #b3b3b3;
+   	color: black;
+   	font-size: 20px;
+   } 
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+    background-color: #00ffff;
+   	color: teal;
+   	font-size: 50px;
+   	text-align:center;
+   } 
+   p{
+   	background-color: #1affff;
+   	color: green;
+   	font-size: 23px;
+   } 
+}
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    h1{
+    background-color: #1affff;
+   	color: black;
+   	font-size: 50px;
+   	text-align:center;
+   } 
+   p{
+   	background-color: #d9d9d9;
+   	color: green;
+   	font-size: 25px;
+   } 
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+    h1{
+    background-color: #33cccc;
+   	color: chocolate;
+   	font-size: 50px;
+   	text-align:center;
+   } 
+   p{
+   	background-color: black;
+   	color: white;
+   	font-size: 27px;
+   }
+}
